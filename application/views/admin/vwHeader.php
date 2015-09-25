@@ -55,12 +55,7 @@ Downloaded from http://devzone.co.in
           <ul class="nav navbar-nav side-nav">
             <li <?php echo  $pg =='admnovedades' ? 'class="active"' : '' ?>><a href="<?php echo base_url(); ?>admin/admnovedades"><i class="fa fa-file"></i> Novedades</a></li>              
             <li <?php echo  $pg =='admpromociones' ? 'class="active"' : '' ?>><a href="<?php echo base_url(); ?>admin/admpromociones"><i class="fa fa-file"></i> Promociones</a></li>              
-          <!--  <li <?php echo  $pg =='dash' ? 'class="active"' : '' ?>><a href="<?php echo base_url(); ?>admin/dashboard"><i class="fa fa-dashboard"></i> Dashboard</a></li> 
-            <li <?php echo  $pg =='user' ? 'class="active"' : '' ?>><a href="<?php echo base_url(); ?>admin/users"><i class="fa fa-file"></i> Users</a></li>
-            <li <?php echo  $pg =='products' ? 'class="active"' : '' ?>><a href="<?php echo base_url(); ?>admin/products"><i class="fa fa-file"></i> Products</a></li>
-            <li <?php echo  $pg =='contact' ? 'class="active"' : '' ?>><a href="<?php echo base_url(); ?>admin/contactus"><i class="fa fa-file"></i> ContactUs</a></li> -->
-            
-        
+            <li <?php echo  $pg =='admmarcas' ? 'class="active"' : '' ?>><a href="<?php echo base_url(); ?>admin/admmarcas"><i class="fa fa-file"></i> Marcas</a></li>              
           </ul>
 
           <ul class="nav navbar-nav navbar-right navbar-user">
