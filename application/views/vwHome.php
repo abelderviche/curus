@@ -279,86 +279,26 @@ Downloaded from http://devzone.co.in
             Le acercamos la mejores marcas del mercado, para que sus trabajos tengan una terminacion unica y su satisfaccion sea plena 
         </h5>
         <div class="row">
-        <div class="col s6 m3">
-            <div class="card card-avatar">
-                <div class="waves-effect waves-block waves-light ">
-                    <img  src="<?php echo HTTP_IMAGES_MARCAS_PATH; ?>3m.jpg">
-                </div>
-                <div class="card-content"><span class="card-title activator grey-text text-darken-4">3M<br></div>
-              </div>
-        </div>
-<div class="col s6 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img  src="<?php echo HTTP_IMAGES_MARCAS_PATH; ?>adiabatic.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Adiabatic<br/>
-                    </div>
-                </div>
-            </div>
-             <div class="col s6 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img  src="<?php echo HTTP_IMAGES_MARCAS_PATH; ?>arquiclass.gif">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">ArquiClass<br/>
-                    </div>
-                </div>
-            </div>
+        <?php foreach ($marcas as $key => $value) {
+
+            $link = $value['link'];
+            if (strpos($link,'http://') !== false) {
+            }else{
+                $link = "http://".$link;
+            }
+         ?>
             <div class="col s6 m3">
                 <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img  src="<?php echo HTTP_IMAGES_MARCAS_PATH; ?>giber.jpg">
+                    <div class="waves-effect waves-block waves-light ">
+                        <a href="<?=$link;?>" target="_blank">
+                            <img  src="<?=($value['imagen'])?HTTP_IMAGES_UPLOADS_PATH.$value['imagen']:HTTP_IMAGES_PATH.'default.jpg';?>">
+                        </a>
                     </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Giber<br/>
-                    </div>
-                </div>
+                    <div class="card-content"><span class="card-title activator grey-text text-darken-4"><?=$value['marca'];?><br></div>
+                  </div>
             </div>
-            <div class="col s6 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img  src="<?php echo HTTP_IMAGES_MARCAS_PATH; ?>meguiars.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Meguiars<br/>
-                    </div>
-                </div>
-            </div>
-            <div class="col s6 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img  src="<?php echo HTTP_IMAGES_MARCAS_PATH; ?>rustoleum.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">RustOleum<br/>
-                    </div>
-                </div>
-            </div>
-            <div class="col s6 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img  src="<?php echo HTTP_IMAGES_MARCAS_PATH; ?>stretch.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Stretch<br/>
-                    </div>
-                </div>
-            </div>
-              <div class="col s6 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img  src="<?php echo HTTP_IMAGES_MARCAS_PATH; ?>tersuave.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Tersuave<br/>
-                    </div>
-                </div>
-            </div>
-        
-            
+        <?php } ?>
+
         </div>
     </div>
 </div>

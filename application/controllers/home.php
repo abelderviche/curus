@@ -27,11 +27,17 @@ class Home extends CI_Controller {
 
     public function index() {
         $arr['page'] ='home';
+        
         $qry ='Select * from novedades WHERE mostrar = 1 ORDER BY fecha desc'; // select data from db
         $arr['cms'] = $this->db->query($qry)->result_array();
 
         $qry2 ='Select * from promociones WHERE mostrar = 1 ORDER BY fecha desc'; // select data from db
         $arr['promociones'] = $this->db->query($qry2)->result_array();
+
+       
+        $qry3 ='Select * from marcas WHERE mostrar = 1 ORDER BY marca ASC'; // select data from db
+        $arr['marcas'] = $this->db->query($qry3)->result_array();
+
 
         
 

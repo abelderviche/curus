@@ -23,10 +23,8 @@ class Admmarcas extends CI_Controller {
         
      
         $crud = new grocery_CRUD();
-        $crud->set_table('promociones');
-        $crud->columns('titulo','mostrar','precio_anterior','precio_actual','imagen');
-        $crud->fields('titulo','mostrar','imagen','descripcion','precio_anterior','precio_actual');
-        $crud->required_fields('titulo','mostrar','descripcion','precio_anterior','precio_actual');
+        $crud->set_table('marcas');
+        $crud->required_fields('marca','mostrar','imagen','link');
         $crud->set_field_upload('imagen','assets/uploads/images');
         
 
