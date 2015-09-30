@@ -3,7 +3,7 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Sendmail extends CI_Controller {
 
     /**
      * Index Page for this controller.
@@ -22,32 +22,31 @@ class Home extends CI_Controller {
      */
     public function __construct() {
         parent::__construct();
-        $this->load->library('email');
     }
 
     public function index() {
-        $arr['page'] ='home';
-        
-        $qry ='Select * from novedades WHERE mostrar = 1 ORDER BY fecha desc'; // select data from db
-        $arr['cms'] = $this->db->query($qry)->result_array();
 
-        $qry2 ='Select * from promociones WHERE mostrar = 1 ORDER BY fecha desc'; // select data from db
-        $arr['promociones'] = $this->db->query($qry2)->result_array();
+        $nombre_nombre  = $this->input->post("nombre");
+        $email_contacto = $this->input->post("email");
+        $consulta = $this->input->post("consulta");
 
-       
-        $qry3 ='Select * from marcas WHERE mostrar = 1 ORDER BY marca ASC'; // select data from db
-        $arr['marcas'] = $this->db->query($qry3)->result_array();
+        $this->load->library('email');
 
+        $this->email->from($email_contacto, $nombre_nombre);
+        $this->email->to('abelderviche@gmail.com'); 
+      /*  $this->email->cc('another@another-example.com'); 
+        $this->email->bcc('them@their-example.com'); 
+*/
+        $this->email->subject('Consulta Web');
+        $this->email->message($consulta);  
+      //  echo "ok";
 
-
-        $this->load->view('vwHome',$arr);
+        if($this->email->send()){
+            echo "ok";
+        }else{
+            echo "nok";
+        }
     }
-
-
-
-
-    
-
 }
 
 /* End of file welcome.php */
