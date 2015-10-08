@@ -10,34 +10,39 @@ Downloaded from http://devzone.co.in
 .card.medium {
     height: 340px;
 }
+
+.imgdiv{
+-moz-filter:blur(5px) grayscale(20%) brightness(0.5);
+-webkit-filter:blur(5px) grayscale(20%) brightness(0.5);
+}
 </style>
 
   
-  <div class="slider">
+  <div class="slider" >
     <ul class="slides">
       <li>
-        <img src="<?php echo HTTP_IMAGES_PATH; ?>Slider1.jpg"> 
+        <img class="imgdiv" src="<?php echo HTTP_IMAGES_PATH; ?>Slider1.jpg"> 
         <div class="caption center-align">
           <h3>Titulo 1</h3>
           <h5 class="light black-text text-lighten-3">Descripcion titulo 1</h5>
         </div>
       </li>
       <li>
-        <img src="<?php echo HTTP_IMAGES_PATH; ?>Slider2.jpg"> 
+        <img class="imgdiv" src="<?php echo HTTP_IMAGES_PATH; ?>Slider2.jpg"> 
         <div class="caption left-align">
           <h3>Titulo 2</h3>
           <h5 class="light black-text text-lighten-3">Descripcion titulo 2</h5>
         </div>
       </li>
       <li>
-        <img src="<?php echo HTTP_IMAGES_PATH; ?>Slider3.jpg"> 
+        <img  class="imgdiv"  src="<?php echo HTTP_IMAGES_PATH; ?>Slider3.jpg"> 
         <div class="caption right-align">
           <h3>Titulo 3</h3>
           <h5 class="light black-text text-lighten-3">Descripcion titulo 3</h5>
         </div>
       </li>
       <li>
-        <img src="<?php echo HTTP_IMAGES_PATH; ?>Slider4.jpg"> 
+        <img  class="imgdiv"  src="<?php echo HTTP_IMAGES_PATH; ?>Slider4.jpg"> 
         <div class="caption center-align">
           <h3>Titulo 4</h3>
           <h5 class="light black-text text-lighten-3">Descripcion titulo 4</h5>
