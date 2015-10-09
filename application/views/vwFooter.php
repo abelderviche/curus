@@ -3,7 +3,7 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <p class="grey-text text-lighten-4">Con decadas de experiencia en Pinturas, Curu's es una empresa de origen familiar especializada en brindar servicio y capacitacion a clientes profesionales y particulares del rubro.</p>
 
 
         </div>
@@ -26,7 +26,7 @@
     </div>
     <div class="footer-copyright orange  darken-2">
       <div class="container">
-      Made by <a class="brown-text text-lighten-1" href="http://www.divdesarrolloweb.com.ar">DiV Desarrollo Web</a>
+      © Copyright 2015 - <a class="white-text text-lighten-1" href="http://www.divdesarrolloweb.com.ar">DiV Desarrollo Web</a>
       </div>
     </div>
   </footer>
@@ -86,7 +86,7 @@ function initialize() {
     var marker = new google.maps.Marker({
      position: new google.maps.LatLng(lat, lon),
      map: map,
-      title: 'Curu\'s Paint!'
+      title: 'Curu\'s!'
     });
    
 
@@ -101,7 +101,7 @@ function initialize() {
     var contentString = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
-      '<h5 id="firstHeading" class="firstHeading">Curu\'s Paint</h5>'+
+      '<h5 id="firstHeading" class="firstHeading">Curu\'s</h5>'+
       '<div id="bodyContent">'+
       /*'<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
       'sandstone rock formation in the southern part of the '+

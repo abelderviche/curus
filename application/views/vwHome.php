@@ -56,29 +56,7 @@ Downloaded from http://devzone.co.in
     <div class="container">
         <div class="row">
             <div  class="col s12">
-                <h2 class="center header text_h2"> Somos una pintureria ubicada en la avenida Camino General Belgrano <span class="span_h2"> Curu's Paints  </span>10 años siendo lider <span class="span_h2"> en toda la zona sur.</span> </h2>
-            </div>
-
-            <div  class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-image-flash-on  large wow bounceIn"></i>
-                    <h5 class="promo-caption">Subtitulo 1</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-social-group large wow bounceIn"></i>
-                    <h5 class="promo-caption">Subtitulo 2</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-hardware-desktop-windows  large wow bounceIn"></i>
-                    <h5 class="promo-caption">Subtitulo 3</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                </div>
+                <h2 class="center header text_h2"> Con decadas de experiencia en Pinturas,<span class="span_h2"> Curu's </span>es una empresa de origen familiar especializada en brindar <span class="span_h2">servicio y capacitacion </span>a clientes profesionales y particulares del rubro. </h2>
             </div>
         </div>
     </div>
@@ -86,7 +64,7 @@ Downloaded from http://devzone.co.in
 
 <div class="section scrollspy" id="novedades">
     <div class="container">
-        <h2 class="header text_b wow bounceInRight">Novedades </h2>
+        <h2 class="header text_b wow bounceInRight">Novedades</h2>
         <div class="row">
             <?php foreach ($cms as $key => $value) { ?>
             <div class="col s12 m4 l4">
@@ -111,7 +89,7 @@ Downloaded from http://devzone.co.in
 
 <!--Parallax-->
 <div class="parallax-container">
-    <div class="parallax"><img src="<?php echo HTTP_IMAGES_PATH; ?>parallax3.jpg"></div>
+    <div class="parallax"><img src="<?php echo HTTP_IMAGES_PATH; ?>parallax1.jpg"></div>
 </div>
 
 <!-- Promociones -->
@@ -119,9 +97,6 @@ Downloaded from http://devzone.co.in
 <div class="section scrollspy" id="promociones">
     <div class="container">
         <h2 class="header text_b wow bounceInDown"> Promociones</h2>
-        <h5 class="grey-text text-lighten-1">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes
-        </h5>
         <div class="row">
             
         <?php foreach ($promociones as $key => $value) { ?>
@@ -160,9 +135,6 @@ Downloaded from http://devzone.co.in
 <div class="section scrollspy" id="equipo">
     <div class="container">
         <h2 class="header text_b   wow bounceInLeft"> Nuestro equipo </h2>
-        <h5 class="grey-text text-lighten-1">
-            Curu's Paints cuenta con profesionales altamente capacitados, que siempre le acercaran el producto indicado, antes sus necesidades
-        </h5>
         <div class="row">
             <div class="col s12 m3">
                 <div class="card card-avatar">
@@ -272,7 +244,7 @@ Downloaded from http://devzone.co.in
 
 
 <div class="parallax-container">
-    <div class="parallax"><img src="<?php echo HTTP_IMAGES_PATH; ?>parallax1.jpg"></div>
+    <div class="parallax"><img src="<?php echo HTTP_IMAGES_PATH; ?>parallax3.jpg"></div>
 </div>
 
 <!-- MARCAS -->
@@ -280,9 +252,6 @@ Downloaded from http://devzone.co.in
 <div class="section scrollspy" id="marcas">
     <div class="container">
         <h3 class="header text_b wow rollIn">Marcas que comercializamos</h3>
-        <h5 class="grey-text text-lighten-1">
-            Le acercamos la mejores marcas del mercado, para que sus trabajos tengan una terminacion unica y su satisfaccion sea plena 
-        </h5>
         <div class="row">
         <?php foreach ($marcas as $key => $value) {
 

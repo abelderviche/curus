@@ -18,7 +18,7 @@
   <div class="navbar-fixed">
     <nav class="orange" role="navigation">
     <div class="nav-wrapper container ">
-      <a id="logo-container" href="<?php echo base_url(); ?>" class="brand-logo white-text">Curu's Paint</a>
+      <a id="logo-container" href="<?php echo base_url(); ?>" class="brand-logo white-text">Curu's</a>
       <ul class="right hide-on-med-and-down ">
                     <li ><a href="#inicio" class="white-text" >Inicio</a></li>
                     <li><a href="#novedades" class="white-text" >Novedades</a></li>
