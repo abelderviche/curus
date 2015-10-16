@@ -13,7 +13,6 @@
   <link href="<?php echo HTTP_CSS_PATH; ?>font-awesome.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="<?php echo HTTP_CSS_PATH; ?>animate.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-
 <body>
   <div class="navbar-fixed">
     <nav class="orange" role="navigation">
@@ -25,6 +24,8 @@
                     <li><a href="#promociones"  class="white-text" >Promociones</a></li>
                     <li><a href="#marcas" class="white-text" >Marcas</a></li>
                     <li><a href="#contactenos" class="white-text" >Contactenos</a></li>
+                    <li><a class="fb" href="https://www.facebook.com/curuspaints">
+                        <i class="small fa fa-facebook-square "></i></a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">

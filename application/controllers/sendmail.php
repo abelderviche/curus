@@ -25,10 +25,14 @@ class Sendmail extends CI_Controller {
     }
 
     public function index() {
+        $invalid_characters = array("$", "%", "#", "<", ">", "|");
 
         $nombre_nombre  = $this->input->post("nombre");
         $email_contacto = $this->input->post("email");
         $consulta = $this->input->post("consulta");
+        $nombre_nombre = str_replace($invalid_characters, "", $nombre_nombre);
+        $email_contacto = str_replace($invalid_characters, "", $email_contacto);
+        $consulta = str_replace($invalid_characters, "", $consulta);
 
         $this->load->library('email');
 
