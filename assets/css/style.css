@@ -107,8 +107,8 @@ footer.page-footer {
 }
 
 .imgdiv{
--moz-filter:blur(5px) grayscale(20%) brightness(0.5);
--webkit-filter:blur(5px) grayscale(20%) brightness(0.5);
+/*-moz-filter:blur(5px) grayscale(20%) brightness(0.5);
+-webkit-filter:blur(5px) grayscale(20%) brightness(0.5); */
 }
   .fb:hover{
     color:#3b5998;

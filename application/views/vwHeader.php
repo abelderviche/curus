@@ -31,7 +31,7 @@
       <ul id="nav-mobile" class="side-nav">
             <li ><a href="#inicio" >Inicio</a></li>
             <li><a href="#novedades">Novedades</a></li>
-            <li><a href="#promociones"  >Promociones</a></li>
+            <li><a href="#promociones">Promociones</a></li>
             <li><a href="#marcas" >Marcas</a></li>
             <li><a href="#contactenos">Contactenos</a></li>
       </ul>

@@ -51,7 +51,7 @@
     </div>
     <div class="footer-copyright orange  darken-3">
         <div class="container">
-            Made by <a class="white-text" href="http://www.divdesarrolloweb.com.ar">DiV Desarrollo Web</a>
+            Hecho por <a class="white-text" href="http://www.divdesarrolloweb.com.ar">DiV Desarrollo Web</a>
         </div>
     </div>
 </footer>

@@ -12,36 +12,36 @@ Downloaded from http://devzone.co.in
       <li>
         <img class="imgdiv" src="<?php echo HTTP_IMAGES_PATH; ?>Slider1.jpg"> 
         <div class="caption center-align">
-          <h3>Titulo 1</h3>
-          <h5 class="light black-text text-lighten-3">Descripcion titulo 1</h5>
+          <h3></h3>
+          <h5 class="light black-text text-lighten-3"></h5>
         </div>
       </li>
       <li>
         <img class="imgdiv" src="<?php echo HTTP_IMAGES_PATH; ?>Slider2.jpg"> 
         <div class="caption left-align">
-          <h3>Titulo 2</h3>
-          <h5 class="light black-text text-lighten-3">Descripcion titulo 2</h5>
+          <h3></h3>
+          <h5 class="light black-text text-lighten-3"></h5>
         </div>
       </li>
       <li>
         <img  class="imgdiv"  src="<?php echo HTTP_IMAGES_PATH; ?>Slider3.jpg"> 
         <div class="caption right-align">
-          <h3>Titulo 3</h3>
-          <h5 class="light black-text text-lighten-3">Descripcion titulo 3</h5>
+          <h3></h3>
+          <h5 class="light black-text text-lighten-3"></h5>
         </div>
       </li>
       <li>
         <img  class="imgdiv"  src="<?php echo HTTP_IMAGES_PATH; ?>Slider4.jpg"> 
-        <div class="caption center-align">
-          <h3>Titulo 4</h3>
-          <h5 class="light black-text text-lighten-3">Descripcion titulo 4</h5>
+        <div class="caption left-align">
+          <h3>Laboratorio Automotor</h3>
+          <h5 class="light white-text text-lighten-3">Mas de 5000 colores en el acto</h5>
         </div>
       </li>
     </ul>
   </div>
 
 
-  <div id="inicio" class="section scrollspy">
+  <div id="inicio" class="section scrollspy" style="height:100%;">
     <div class="container">
         <div class="row">
             <div  class="col s12">
@@ -49,6 +49,10 @@ Downloaded from http://devzone.co.in
             </div>
         </div>
     </div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax"><img src="<?php echo HTTP_IMAGES_PATH; ?>parallax1.jpg"></div>
 </div>
 
 <div class="section scrollspy" id="novedades">
@@ -78,7 +82,7 @@ Downloaded from http://devzone.co.in
 
 <!--Parallax-->
 <div class="parallax-container">
-    <div class="parallax"><img src="<?php echo HTTP_IMAGES_PATH; ?>parallax1.jpg"></div>
+    <div class="parallax"><img src="<?php echo HTTP_IMAGES_PATH; ?>parallax2.jpg"></div>
 </div>
 
 <!-- Promociones -->
@@ -116,125 +120,13 @@ Downloaded from http://devzone.co.in
 
 <!--Parallax-->
 <div class="parallax-container">
-    <div class="parallax"><img src="<?php echo HTTP_IMAGES_PATH; ?>parallax2.jpg"></div>
-</div>
-
-
-<!--EQUIPO-->
-<div class="section scrollspy" id="equipo">
-    <div class="container">
-        <h2 class="header text_b   wow bounceInLeft"> Nuestro equipo </h2>
-        <div class="row">
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="<?php echo HTTP_IMAGES_PATH; ?>avatar1.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Flash <br/>
-                            <small><em><a class="orange-text text-darken-3" href="#">Vendedor</a></em></small></span>
-                        <p>
-                            <a class="orange-text text-lighten-2" href="#">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="orange-text text-lighten-2" href="#">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="orange-text text-lighten-2" href="#">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="orange-text text-lighten-2" href="#">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="<?php echo HTTP_IMAGES_PATH; ?>avatar2.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Cat Woman<br/>
-                            <small><em><a class="orange-text text-darken-3" href="#">Vendedor</a></em></small>
-                        </span>
-                        <p>
-                            <a class="orange-text text-lighten-2" href="#">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="orange-text text-lighten-2" href="#">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="orange-text text-lighten-2" href="#">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="orange-text text-lighten-2" href="#">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card card-avatar ">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="<?php echo HTTP_IMAGES_PATH; ?>avatar3.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">
-                            Capt. America <br/>
-                            <small><em><a class="orange-text text-darken-3" href="#">Vendedor</a></em></small></span>
-                        <p>
-                            <a class="orange-text text-lighten-2" href="#">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="orange-text text-lighten-2" href="#">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="orange-text text-lighten-2" href="#">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="orange-text text-lighten-2" href="#">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="<?php echo HTTP_IMAGES_PATH; ?>avatar4.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Robin<br/>
-                            <small><em><a class="orange-text text-darken-3" href="#">Vendedor</a></em></small></span>
-                        <p>
-                            <a class="orange-text-lighten-2" href="#">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="orange-text text-lighten-2" href="#">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="orange-text text-lighten-2" href="#">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="orange-text-lighten-2" href="#">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="parallax-container">
     <div class="parallax"><img src="<?php echo HTTP_IMAGES_PATH; ?>parallax3.jpg"></div>
 </div>
+
+
+
+
+
 
 <!-- MARCAS -->
 
@@ -267,7 +159,8 @@ Downloaded from http://devzone.co.in
 </div>
 <!-- fin promociones -->
 
-  
+
+
 <?php
 $this->load->view('vwFooter');
 ?>
