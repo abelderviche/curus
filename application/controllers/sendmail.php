@@ -34,13 +34,17 @@ class Sendmail extends CI_Controller {
         $email_contacto = str_replace($invalid_characters, "", $email_contacto);
         $consulta = str_replace($invalid_characters, "", $consulta);
 
+        $consulta ="Nombre:$nombre_nombre
+                    Email:$email_contacto
+                    Consulta: $consulta";
+
         $this->load->library('email');
 
         $this->email->from($email_contacto, $nombre_nombre);
-        $this->email->to('abelderviche@gmail.com'); 
-      /*  $this->email->cc('another@another-example.com'); 
-        $this->email->bcc('them@their-example.com'); 
-*/
+        $this->email->to('consultas@curuspinturerias.com.ar'); 
+
+
+
         $this->email->subject('Consulta Web');
         $this->email->message($consulta);  
       //  echo "ok";

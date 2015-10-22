@@ -73,27 +73,3 @@
 google.maps.event.addDomListener(window, "load", initialize);
 
 
-$('#button').click(function(event) {
-  var nombre    = $('#nombre').val();
-  var email     = $('#email').val();
-  var consulta  = $('#consulta').val();
-  $('#error1').hide();
-  $('#error2').hide();
-  $('#ok').hide();
-
-  if(nombre == ''||email==''||consulta==''){
-    $('#error1').show(100);
-  }else{
-    $('.progress').show(100);
-    $('#button').hide();
-    $.post("<?php echo base_url(); ?>sendmail", {nombre: nombre,email:email,consulta:consulta}, function(data, textStatus, xhr) {
-        $('.progress').hide(100);
-        if(data =='ok'){
-            $('#ok').show(100);
-            console.log(data);
-        }else{
-            $('#error2').show(100);
-        }
-    });
-  }
-});
