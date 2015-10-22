@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Curu's Paint</title>
+  <title>Curu's Pinturerias</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -24,7 +24,7 @@
                     <li><a href="#promociones"  class="white-text" >Promociones</a></li>
                     <li><a href="#marcas" class="white-text" >Marcas</a></li>
                     <li><a href="#contactenos" class="white-text" >Contactenos</a></li>
-                    <li><a class="fb" href="https://www.facebook.com/curuspaints">
+                    <li><a class="fb" href="https://www.facebook.com/curuspaints" target="_blank">
                         <i class="small fa fa-facebook-square "></i></a></li>
       </ul>
 

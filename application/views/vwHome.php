@@ -1,11 +1,7 @@
 <?php
 $this->load->view('vwHeader');
 ?>
-<!--  
-Load Page Specific CSS and JS here
-Author : Abhishek R. Kaushik 
-Downloaded from http://devzone.co.in
--->
+
  
   <div class="slider" >
     <ul class="slides">

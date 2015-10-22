@@ -9,7 +9,7 @@
   Code By Abhishek R. Kaushik  
   http://devzone.co.in/
   -->
-    <title>Femeba Admin</title>
+    <title>Administrador Curu's pinturerias</title>
     <!-- Bootstrap core CSS -->
     <link href="<?php echo HTTP_CSS_PATH; ?>bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
