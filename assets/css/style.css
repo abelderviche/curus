@@ -113,3 +113,13 @@ footer.page-footer {
   .fb:hover{
     color:#3b5998;
   }
+
+
+.caption{
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.98);
+}
+#logo-container{
+    font-family: 'Rock Salt', cursive;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.98);
+}

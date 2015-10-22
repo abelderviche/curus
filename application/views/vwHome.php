@@ -8,7 +8,7 @@ $this->load->view('vwHeader');
       <li>
         <img class="imgdiv" src="<?php echo HTTP_IMAGES_PATH; ?>Slider1.jpg"> 
         <div class="caption center-align">
-          <h3>Ubicados en camino gral belgrano 2680</h3>
+          <h3>Ubicados en Camino Gral. Belgrano 2680</h3>
           <h5 class="light white-text text-lighten-3"></h5>
         </div>
       </li>
@@ -22,7 +22,7 @@ $this->load->view('vwHeader');
       <li>
         <img  class="imgdiv"  src="<?php echo HTTP_IMAGES_PATH; ?>Slider3.jpg"> 
         <div class="caption right-align">
-          <h3 class="light black-text text-lighten-3">Mas de 5000 colores en el acto</h3>
+          <h3 class="light  text-lighten-3">Mas de 5000 colores en el acto</h3>
           <h5 class="light black-text text-lighten-3"></h5>
         </div>
       </li>
