@@ -24,8 +24,8 @@ class Admpromociones extends CI_Controller {
      
         $crud = new grocery_CRUD();
         $crud->set_table('promociones');
-        $crud->columns('titulo','mostrar','precio_anterior','precio_actual','imagen');
-        $crud->fields('titulo','mostrar','imagen','descripcion','precio_anterior','precio_actual');
+        $crud->columns('titulo','mostrar','precio_anterior','precio_actual','imagen','limite');
+        $crud->fields('titulo','mostrar','imagen','descripcion','precio_anterior','precio_actual','limite');
         $crud->required_fields('titulo','mostrar','descripcion','precio_anterior','precio_actual');
         $crud->set_field_upload('imagen','assets/uploads/images');
         

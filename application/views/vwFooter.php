@@ -42,16 +42,23 @@
                         </div>
                     </div>
                 </form>
+                <div itemscope itemtype="http://schema.org/Organization" class="row">
+                    <p class="white-text">Telefono: <span itemprop="telephone">4391-2578</span> <br>
+                        <span itemprop="address">Camino Gral. Belgrano 2680, Berazategui </span>
+
+                    </p>
+                </div>
             </div>
-         
+            
             <div class="col card l6 s12">
                 <div id="map_canvas" style="height: 300px;margin-top:10px;" ></div>
             </div>
         </div>
     </div>
+        
     <div class="footer-copyright orange  darken-3">
-        <div class="container">
-            Hecho por <a class="white-text" href="http://www.divdesarrolloweb.com.ar">DiV Desarrollo Web</a>
+        <div class="container" itemscope itemtype="http://schema.org/WebSite">
+            Hecho por <a itemprop="name"class="white-text" href="http://www.divdesarrolloweb.com.ar">DiV Desarrollo Web</a>
         </div>
     </div>
 </footer>
@@ -61,33 +68,9 @@
   <script src="<?php echo HTTP_JS_PATH; ?>wow.min.js"></script>
   <script src="<?php echo HTTP_JS_PATH; ?>materialize.js"></script>
   <script src="<?php echo HTTP_JS_PATH; ?>init.js"></script>
+  <script async="" src="//www.google-analytics.com/analytics.js"></script>
   <script type="text/javascript">
-  /*
-    $('#formulario').submit(function(event) {
-  var nombre    = $('#nombre').val();
-  var email     = $('#email').val();
-  var consulta  = $('#consulta').val();
-  $('#error1').hide();
-  $('#error2').hide();
-  $('#ok').hide();
 
-  if(nombre == ''||email==''||consulta==''){
-    $('#error1').show(100);
-  }else{
-    $('#button').hide();
-    $('#progreso').show(100);
-    /*$.post("<?php echo base_url(); ?>sendmail", {nombre: nombre,email:email,consulta:consulta}, function(data, textStatus, xhr) {
-        $('.progress').hide(100);
-        if(data =='ok'){
-            $('#ok').show(100);
-            console.log(data);
-        }else{
-            $('#error2').show(100);
-        }
-    });
-  }
-});
-*/
 
 
 

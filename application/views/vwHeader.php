@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-419">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="description" content="Con decadas de experiencia en Pinturas Curu's es una empresa de origen familiar especializada en brindar servicio y capacitación a clientes.">
+  <link rel="canonical" href="http://www.curuspinturerias.com.ar">
+  <meta http-equiv="X-UA-Compatible "content="IE=edge">
+  <meta name="author" content="DiV Desarrollo Web">
+  <meta name="keywords" content="Curu's Pintureria pinturerias curus curu Berazategui Camino General Belgrano curuspinturerias">
     
   <title>Curu's Pinturerias</title>
     <link rel="shortcut icon" href="<?php echo HTTP_IMAGES_PATH; ?>favicon.ico" type="image/x-icon">
